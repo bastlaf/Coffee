@@ -1,0 +1,70 @@
+footer {
+    width: 100vw;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+    justify-content: space-between;
+    a {
+        color: white;
+    }
+    #sb_instagram {
+        margin: 2rem 0;
+    }
+    .boxHoraire {
+        width: 25%;
+        margin: 2.5rem 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .itemHoraire {
+        display: flex;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        font-family: 'Oswald', sans-serif;
+        text-shadow: none;
+        font-size: 1.15rem;
+        font-weight: 200;
+        margin-bottom: 1rem;
+    }
+    .boxHours {
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-family: 'Oswald', sans-serif;
+        text-shadow: none;
+        font-size: 1.15rem;
+        font-weight: 200;
+        margin-bottom: 1rem;
+    }
+    .lineHoraire {
+        border-bottom: 1px dotted rgb(255, 255, 255);
+        flex: 1;
+        position: relative;
+        bottom: 1.3rem;
+        margin: 0 5px;
+    }
+}
+.facebookBox {
+    margin: 2.5rem 5px;
+    width: 25%;
+    h2 {
+        text-shadow: none;
+        color: rgb(177, 177, 177);
+    }
+}
+footer h4 {
+    margin-bottom: 2rem;
+    color: white;
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+    footer  .boxHoraire {
+        width: 100%;
+    }
+    .facebookBox {
+        width: 100%;
+    }
+}

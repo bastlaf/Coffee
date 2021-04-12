@@ -1,0 +1,275 @@
+.section1 {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+.section1 h3 {
+  color: #723d30;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+  top: 1.3rem;
+}
+.section1 h2 {
+  color: #141414;
+  font-family: "Oswald", sans-serif;
+  text-shadow: none;
+  font-size: 3.5rem;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+.section1 .boxMenu {
+  display: flex;
+  flex-direction: column;
+  width: 70rem;
+  margin-bottom: 5rem;
+}
+.section1 .boxItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70rem;
+  margin-bottom: 2rem;
+}
+.section1 .titleSectionItems {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: #be7967;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.section1 .menuItem {
+  display: flex;
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+.section1 .imgItem {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.section1 .itemD {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 1rem;
+}
+.section1 .itemLineTop {
+  display: flex;
+  justify-content: space-between;
+}
+.section1 .ItemLine {
+  border-bottom: 1px dotted #723d30;
+  flex: 1;
+  position: relative;
+  bottom: 6px;
+}
+.section1 .ItemName {
+  color: #723d30;
+  font-family: "Oswald", sans-serif;
+  text-shadow: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.section1 .itemPrice {
+  color: #723d30;
+  font-family: "Oswald", sans-serif;
+  text-shadow: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-left: 2px;
+}
+.section1 .itemLineBottom {
+  color: #be7967;
+  font-family: "Oswald", sans-serif;
+  text-shadow: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 959px) {
+  .section1 .boxItems {
+    justify-content: center;
+  }
+
+  .section1 .menuItem {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+.section2 {
+  width: 100%;
+  background-color: #232b3d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0 5rem 0;
+  position: relative;
+}
+.section2 svg {
+  position: absolute;
+  top: -3px;
+  transform: rotate(180deg);
+  width: 100%;
+  --color-bg: rgb(255, 255, 255);
+}
+.section2 h3 {
+  color: white;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section2 .boxStory {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section2 .boxStory p {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-shadow: none;
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.section3 {
+  width: 100%;
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0 3rem 0;
+  position: relative;
+}
+
+.section4 {
+  width: 100%;
+  background-color: #232b3d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0 8rem 0;
+  position: relative;
+}
+.section4 svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  --color-bg: rgb(255, 255, 255);
+}
+.section4 h3 {
+  color: white;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section4 .boxStory {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section4 .boxStory p {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-shadow: none;
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.fond1, .fond2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -10;
+  object-fit: cover;
+  min-height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.section5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.section5 h3 {
+  color: #723d30;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+.section5 .leaflet-container {
+  z-index: 20;
+}
+.section5 .leaflet-map {
+  min-width: 15rem;
+  max-height: 15rem !important;
+  border-radius: 50%;
+}
+.section5 .boxMap {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.section5 .leaflet-top, .section5 .leaflet-bottom {
+  display: none;
+}
+.section5 .cardMap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.section5 .cardMap .adresseMap {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-shadow: none;
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+}
+.section5 .carteRue {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 959px) {
+  .section2 .boxStory {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+  }
+}

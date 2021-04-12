@@ -1,0 +1,302 @@
+.section1 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    h3 {
+        color: rgb(114, 61, 48);
+        font-family: 'EB Garamond', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: 1.3rem;
+    }
+    h2 {
+        color: rgb(20, 20, 20);
+        font-family: 'Oswald', sans-serif;
+        text-shadow: none;
+        font-size: 3.5rem;
+        font-weight: 700;
+        border-bottom: 1px solid black;
+        margin-bottom: 1rem;
+    }
+    .boxMenu {
+        display: flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+        // justify-content: space-between;
+        width: 70rem;
+        margin-bottom: 5rem;
+        // background-color: rgb(30, 133, 16);
+    }
+    .boxItems {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 70rem;
+        margin-bottom: 2rem;
+        // background-color: rgb(30, 133, 16);
+    }
+    .titleSectionItems {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 4rem;
+        text-align: center;
+        color: rgb(190, 121, 103);
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        // font-style: italic;
+    }
+    // .menuG {
+    //     width: 30rem;
+    //     margin-bottom: 4rem;
+    //     height: fit-content;
+        
+    // }
+    .menuItem {
+        display: flex;
+        width: 30rem;
+        margin-bottom: 2rem;
+    }
+    .imgItem {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .itemD {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin: 0 1rem;
+    }
+    .itemLineTop {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ItemLine {
+        border-bottom: 1px dotted rgb(114, 61, 48);
+        flex: 1;
+        position: relative;
+        bottom: 6px;
+    }
+    .ItemName {
+        color: rgb(114, 61, 48);
+        font-family: 'Oswald', sans-serif;
+        text-shadow: none;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    .itemPrice {
+        color: rgb(114, 61, 48);
+        font-family: 'Oswald', sans-serif;
+        text-shadow: none;
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding-left: 2px;
+    }
+    .itemLineBottom {
+        color: rgb(190, 121, 103);
+        font-family: 'Oswald', sans-serif;
+        text-shadow: none;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .section1 .boxItems {
+        justify-content: center;
+    }
+    .section1 .menuItem {
+        margin-left:5px;
+        margin-right: 5px;
+    }
+}
+
+
+
+
+.section2 {
+    width: 100%;
+    background-color: #232b3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0 5rem 0;
+    position: relative;
+    svg {
+        position: absolute;
+        top: -3px;
+        transform: rotate(180deg);
+        width: 100%;
+        --color-bg: rgb(255, 255, 255);
+    }
+    h3 {
+        color: rgb(255, 255, 255);
+        font-family: 'EB Garamond', sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .boxStory {
+        width: 45rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p {
+            color: rgb(255, 255, 255);
+            font-family: 'Oswald', sans-serif;
+            text-shadow: none;
+            font-size: 1.3rem;
+            font-weight: 200;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+
+.section3 {
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 3rem 0;
+    position: relative;
+}
+
+.section4 {
+    width: 100%;
+    background-color: #232b3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 8rem 0;
+    position: relative;
+    svg {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        --color-bg: rgb(255, 255, 255);
+    }
+    h3 {
+        color: rgb(255, 255, 255);
+        font-family: 'EB Garamond', sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .boxStory {
+        width: 45rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p {
+            color: rgb(255, 255, 255);
+            font-family: 'Oswald', sans-serif;
+            text-shadow: none;
+            font-size: 1.3rem;
+            font-weight: 200;
+            margin-bottom: 1rem;
+        }
+    }
+}
+.fond1, .fond2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -10;
+    object-fit: cover;
+    min-height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.section5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    h3 {
+        color: rgb(114, 61, 48);
+        font-family: 'EB Garamond', sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 4rem;
+        margin-top: 3rem
+    }
+    .leaflet-container {
+        z-index: 20;
+    }
+    .leaflet-map {
+        min-width: 15rem;
+        max-height: 15rem!important;
+        border-radius: 50%;
+        
+    }
+    .boxMap {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .leaflet-top, .leaflet-bottom {
+        display: none;
+    }
+    .cardMap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        border-radius: 0.5rem;
+        padding: 2rem;
+       
+        // transition: all 0.5s ease-in-out!important;
+        background-color: rgba(0, 0, 0, 0.8);
+        // &:hover {
+          
+        //     transition: all 0.5s ease-in-out!important;
+        //     transition-delay: 0s!important;
+        // }
+        // &:hover .adresseMap {
+        //     transition-duration: 0.3s;
+        //     transition-delay: 0s;
+            
+        // }
+        .adresseMap {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            text-shadow: none;
+            font-size: 1.3rem;
+            font-weight: 200;
+            margin-bottom: 0.5rem;
+        }
+    }
+    .carteRue {
+        margin-top: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 959px) {
+    .section2 .boxStory {
+        margin-left:20px;
+        margin-right: 20px;
+        width: auto;
+    }
+}
