@@ -1,7 +1,8 @@
+import '../css/style.scss';
+
 let h1 = document.querySelector('h1');
 let search = document.querySelector('.navigation');
 document.addEventListener('scroll', ()=> {
-    
     
     let positionh1 = h1.getBoundingClientRect().top;
     let scroll = window.pageYOffset; // position du scroll
@@ -56,3 +57,6 @@ carte2.addEventListener('mouseout', () => {
     console.log('background');
     fond2.style.opacity = "0";
 });
+
+console.log("je suis le console log test");
+
