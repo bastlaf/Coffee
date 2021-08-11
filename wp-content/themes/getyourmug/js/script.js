@@ -1,4 +1,5 @@
-import '../css/style.scss';
+
+AOS.init();
 
 let h1 = document.querySelector('h1');
 let search = document.querySelector('.navigation');
@@ -32,7 +33,7 @@ btnMenuResp.addEventListener('click', () => {
     }
 });
 
-AOS.init();
+
 
 let carte = document.querySelector('.cardMap');
 let carte1 = document.querySelector('.cardMap:nth-child(1)');
